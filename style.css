@@ -1,0 +1,18 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ h1{
+    font-size: 40px;
+ }
+
+#pp{
+    color: rgb(8, 113, 113);
+}
+.half{
+    width: 40%;
+    float: left;
+    margin:5%;
+}
+img{
+    width: 100%;
+}
