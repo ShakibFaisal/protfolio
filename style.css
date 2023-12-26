@@ -6,13 +6,14 @@ body{
     font-size: 40px;
  }
 
-#pp{
-    color: rgb(8, 113, 113);
-}
 .half{
     width: 40%;
     float: left;
-    margin:5%;
+    margin-top:5%;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+    
 }
 img{
     width: 100%;
@@ -23,6 +24,7 @@ img{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .hireme{
    text-decoration: none;
@@ -33,3 +35,35 @@ section{
    color: aliceblue;
    
 }
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.highlight{
+    color: rgb(7, 120, 120);
+}
+.exper{
+    text-align: center;
+}
+.single-experience{
+    box-shadow:10px 10px 40px gray;
+    border-radius:10px;
+    background-color: white;
+    height:340px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#s1t{
+ border-left:6.5px solid;
+  border-image: linear-gradient(lightSalmon ,tomato);
+  border-image-slice:1;
+}
+#n2d{
+    border-left:6.5px solid;
+     border-image: linear-gradient(rgb(5, 113, 145) ,rgb(105, 191, 234));
+     border-image-slice:1;
+   }
